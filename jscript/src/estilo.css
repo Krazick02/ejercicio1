@@ -1,0 +1,55 @@
+.contenedor{
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    overflow: hidden;
+}
+.botonera{
+    height: 15vh;
+    width: 97vw;
+    margin: 20px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    width: 30%;
+}
+.boton{
+    height: 40%;
+    width: 10%;
+}
+.text{
+    font-size: .5cm;
+    font-weight: 300;
+}
+
+@media(max-width:800px){
+    .text{
+        font-size: initial;
+        font-weight: initial;
+    }
+    .boton{
+        height: 40%;
+        width: 40%;
+    }
+    .botonera{
+        height: 15vh;
+        width: 90vw;
+    }
+    .label{
+        height: 40%;
+        width: 90%;
+    }
+}
